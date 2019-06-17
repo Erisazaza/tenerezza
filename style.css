@@ -1,0 +1,297 @@
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    background: #FFF3F7;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    padding: 0;
+    margin: 0;
+  }
+
+#menu li{
+    display: inline;
+    list-style:none;
+    margin: 5px 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+#menu li a {
+    padding: 5px 10px;
+    color: #732379;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background: #732379;
+    color: #FFF3F7;
+}
+
+.menu_logo {
+   display: block;
+}
+
+#menu.default {
+    
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+video {
+
+}
+
+#main {
+     display: flex;
+     background-image: url(img/5.jpg); 
+     background-size: cover;
+     position: relative;
+}
+
+#main:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    top: 0px;
+}
+
+#main_img {
+    width: 44%;
+    position: relative;
+    z-index: 2;
+}
+
+.main_img1 {
+    width: 460px;
+    height: 460px;
+    display: block;
+    margin: 50px;
+    z-index: 2;
+}
+
+#main_text {
+    width: 50%;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif; 
+    color: #732379;
+    margin: 50px 0 50px 0;
+    z-index: 2;
+}
+
+.main_text2 {
+    text-align: left;
+    font-size: 26px;
+    font-family: 'EB Garamond', serif;
+    color: #732379;
+    padding: 0 20px 0 0;
+    z-index: 2;
+}
+
+#history {
+    display: flex;
+}
+
+#history_img {
+    width: 45%;
+}
+
+.history_img1{
+    width: 460px;
+    height: 460px;
+    display: block;
+    margin: 80px 20px 50px 50px;
+}
+
+#history_text {
+    width: 55%;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif; 
+    color: #732379;
+    margin: 50px 0 50px 50px;
+}
+
+.line_text {
+    font-size: 15px;
+    font-family: 'Playfair Display', serif; 
+    color: #732379;
+    font-style: italic;
+    margin: 7px 5px 0 0;
+}
+
+.history_text2 {
+    text-align: left;
+    font-size: 26px;
+    font-family: 'EB Garamond', serif;
+    color: #732379;
+    padding: 0 24px 20px 50px;
+}
+
+#line {
+    margin: 0px 40px 20px 30px;
+    padding: 0px 0px 0px 20px;
+    border-style: solid;
+    border-width: 0px 0px 0px 2px;
+    border-color: #732379;
+    height: 80px;
+    display: flex;
+}
+
+#catalog {
+    border: 3px solid #732379;
+    margin: 0 80px 0 80px;
+
+}
+
+#catalog_img {
+    display: flex;
+    justify-content: center;
+}
+
+#catalog_img1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.catalog_img1_1 {
+    width: 300px;
+    height: 300px;
+    margin: 50px 30px 30px 30px;
+}
+
+#catalog_img2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.catalog_img2_1 {
+    width: 300px;
+    height: 300px;
+    margin: 50px 30px 30px 30px;
+}
+
+#catalog_img3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.catalog_img3_1 {
+    width: 300px;
+    height: 300px;
+    margin: 50px 30px 30px 30px;   
+}
+
+h3 {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif; 
+    color: #732379;
+    margin: 50px 50px 0 50px;
+    text-align: center;
+    display: block;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif; 
+    color: #732379;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.catalog_text {
+    font-size: 20px;
+    font-family: 'EB Garamond', serif; 
+    color: #732379;
+    margin: 0 0 30px 0;
+    text-align: center; 
+}
+
+#contacts {
+    background: #FFF3F7;
+    margin: 20px 0 0 0;
+    padding: 20px;
+
+}
+
+#contacts_all {
+    display: flex;
+    justify-content: center;
+}
+
+#adress {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+
+
+h6 {
+    font-size: 22px;
+    font-family: 'EB Garamond', serif; 
+    color: #732379;
+    text-align: center; 
+}
+
+#contacts_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 110px;
+    padding: 25px;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 110px;
+    padding: 25px;
+}
+
+.contacts_menu1 {
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    color: #732379;
+    text-align: center;
+    padding: 5px;
+}
+
+#contacts_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 110px 0 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: #732379;
+}
